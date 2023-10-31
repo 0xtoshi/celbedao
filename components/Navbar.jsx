@@ -18,7 +18,7 @@ export default function NavbarMain() {
   const menuItems = ["Home"];
 
   return (
-    <Navbar>
+    <Navbar className="lg:max-w-full md:max-w-full sm:max-w-sm">
       <NavbarBrand>
         <img className="w-10" src="/logo.png"></img>
         <p className="font-bold text-inherit">BEDAO</p>
