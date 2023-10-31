@@ -46,7 +46,7 @@ export default function HeroSection() {
                 color="secondary"
                 size="lg"
                 src="/celestia.png"
-                className="mb-3"
+                className="mb-3 w-20"
               />
             </center>
             <h1 className="text-gray-900 dark:text-white font-bold text-2xl md:text-3xl xl:text-3xl ">
