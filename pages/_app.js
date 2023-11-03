@@ -1,5 +1,5 @@
 import "@/styles/globals.css";
-
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
 import { NextUIProvider } from "@nextui-org/react";
 import { ThemeProvider as NextThemesProvider } from "next-themes";
 import { Analytics } from "@vercel/analytics/react";

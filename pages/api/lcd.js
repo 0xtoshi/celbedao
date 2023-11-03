@@ -1,6 +1,7 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
 import fetch from "cross-fetch";
 import axios from "axios";
+export const runtime = "edge"; // 'nodejs' (default) | 'edge'
 export default async function handler(req, res) {
   const ip = req.query.ip;
   if (isIPv4Address(ip) == true) {
